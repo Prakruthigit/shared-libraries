@@ -30,3 +30,6 @@ def runPipeline(environmentName, lambdaName)
     }
 }
 
+def echoCommand(){
+	echo "Shared libraries success"
+}

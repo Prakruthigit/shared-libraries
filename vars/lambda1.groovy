@@ -30,6 +30,6 @@ def runPipeline(environmentName, lambdaName)
     }
 }
 
-def echoCommand(var1="variable1", var2="variable2"){
+def echoCommand(var1="$GIT_COMMIT", var2="variable2"){
 	echo "Shared libraries success"
 }
